@@ -1,0 +1,12 @@
+<form class="department-form" #f="ngForm">
+  <span class="header-text" *ngIf="data.isEdit; else addHeader">Edit resource</span>
+  <ng-template #addHeader><span class="header-text">Add resource</span></ng-template>
+  <mat-form-field appearance="fill" >
+    <mat-label for="department-name">Value</mat-label>
+    <input matInput type="text" name="department-name" id="department-name" [(ngModel)]="localResource.value" required>
+  </mat-form-field>
+  <div class="department-button-group">
+    <button type="button" class="btn btn-success" (click)="onSubmit()" [disabled]="f.invalid">Save</button>
+    <button type="button" class="btn btn-dark" (click)="onCancel()">Cancel</button>
+  </div>
+</form>

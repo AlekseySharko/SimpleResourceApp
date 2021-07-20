@@ -16,6 +16,11 @@ namespace SimpleResourceAppAsp.Repository
             new Resource {ResourceId = 5, Value = "noo"},
             new Resource {ResourceId = 6, Value = "moo"},
             new Resource {ResourceId = 7, Value = "coo"},
+            new Resource {ResourceId = 8, Value = "too"},
+            new Resource {ResourceId = 14, Value = "goo"},
+            new Resource {ResourceId = 15, Value = "loo"},
+            new Resource {ResourceId = 16, Value = "koo"},
+            new Resource {ResourceId = 17, Value = "poo"},
         };
 
         public Task<IEnumerable<Resource>> GetResourcesAsync()
@@ -27,9 +32,10 @@ namespace SimpleResourceAppAsp.Repository
         {
             if (Resources.FirstOrDefault(r => r.ResourceId == resource.ResourceId) != null)
             {
-                return ReturnResultAsTask(OperationResult.Failed("A resource with this id already exists"));
+                return ReturnResultAsTask(OperationResult.Failed("A resource with this id already exists or the provided id is invalid"));
             }
 
+            resource.ResourceId = Resources.Select(r => r.ResourceId).Max() + 1;
             Resources.Add(resource);
             return ReturnResultAsTask(OperationResult.Successful());
         }

@@ -1,0 +1,23 @@
+.btn:focus {
+  box-shadow: none;
+}
+.btn-control-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-control {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.btn {}
+@media(min-width: 45rem) {
+  .btn {
+    font-size: 1.1rem;
+  }
+}
+@media(min-width: 60rem) {
+  .btn {
+    font-size: 1.2rem;
+  }
+}
