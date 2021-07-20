@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleResourceAppAsp", "SimpleResourceAppAsp\SimpleResourceAppAsp.csproj", "{A3C20FFE-21E0-4445-9734-65E640B1AC89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleResourceAppModels", "SimpleResourceAppModels\SimpleResourceAppModels.csproj", "{698D8518-5566-4CD2-8A80-A61C79609C87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A3C20FFE-21E0-4445-9734-65E640B1AC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3C20FFE-21E0-4445-9734-65E640B1AC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3C20FFE-21E0-4445-9734-65E640B1AC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698D8518-5566-4CD2-8A80-A61C79609C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698D8518-5566-4CD2-8A80-A61C79609C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698D8518-5566-4CD2-8A80-A61C79609C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698D8518-5566-4CD2-8A80-A61C79609C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
