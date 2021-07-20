@@ -1,9 +1,0 @@
-C:\Users\aleks\source\repos\SimpleResourceApp\SimpleResourceAppModels\bin\Debug\netstandard2.1\SimpleResourceAppModels.deps.json
-C:\Users\aleks\source\repos\SimpleResourceApp\SimpleResourceAppModels\bin\Debug\netstandard2.1\SimpleResourceAppModels.dll
-C:\Users\aleks\source\repos\SimpleResourceApp\SimpleResourceAppModels\bin\Debug\netstandard2.1\SimpleResourceAppModels.pdb
-C:\Users\aleks\source\repos\SimpleResourceApp\SimpleResourceAppModels\obj\Debug\netstandard2.1\SimpleResourceAppModels.csproj.AssemblyReference.cache
-C:\Users\aleks\source\repos\SimpleResourceApp\SimpleResourceAppModels\obj\Debug\netstandard2.1\SimpleResourceAppModels.AssemblyInfoInputs.cache
-C:\Users\aleks\source\repos\SimpleResourceApp\SimpleResourceAppModels\obj\Debug\netstandard2.1\SimpleResourceAppModels.AssemblyInfo.cs
-C:\Users\aleks\source\repos\SimpleResourceApp\SimpleResourceAppModels\obj\Debug\netstandard2.1\SimpleResourceAppModels.csproj.CoreCompileInputs.cache
-C:\Users\aleks\source\repos\SimpleResourceApp\SimpleResourceAppModels\obj\Debug\netstandard2.1\SimpleResourceAppModels.dll
-C:\Users\aleks\source\repos\SimpleResourceApp\SimpleResourceAppModels\obj\Debug\netstandard2.1\SimpleResourceAppModels.pdb
